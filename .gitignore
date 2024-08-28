@@ -1,0 +1,123 @@
+# Visual Studio
+.vscode/
+.vs/
+**/.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+
+# NuGet Packages
+*.nupkg
+# The packages folder can be ignored because of the automatic restore
+**/[Pp]ackages/*
+!**/[Pp]ackages/build/
+# Uncomment if necessary however generally it will be regenerated when needed
+#!**/[Pp]ackages/repositories.config
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Ignore .NET Core project files
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# StyleCop
+StyleCopReport.xml
+
+# User-specific files
+*.rsuser
+*.rspscc
+*.sln.docstates
+
+# Auto-generated files (backup, etc.)
+*.bak
+*.swp
+*~
+
+# Rider
+.idea/
+
+# JetBrains Rider
+.idea/
+*.sublime-workspace
+
+# Local History for Visual Studio
+.localhistory/
+
+# Code Coverage
+*.coverage
+*.coveragexml
+_Reports/
+_TestResults/
+*.trx
+*.testlog
+
+# WebAssembly
+wwwroot/dist/
+
+# Entity Framework
+**/Migrations/
+
+# Database
+*.mdf
+*.ldf
+*.ndf
+
+# SQLite
+*.sqlite
+*.sqlite3
+*.db
+
+# Logs
+logs/
+*.log
+
+# Don't commit secrets
+appsettings.*.json
+
+# User secrets
+**/secrets.json
+
+# Publish output
+publish/
+*.publishsettings
+
+# Resharper
+_ReSharper*/
+*.DotSettings.user
+
+# Rider
+.idea/
+
+# IIS Logs
+IISExpress/
+
+# dotnet user secrets
+**/.secret/
+
+# Mac files
+.DS_Store
